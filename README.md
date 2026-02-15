@@ -6,7 +6,7 @@
 
 A static PE executable analyzer that scores Windows binaries for malicious indicators without running them. Built in C# / .NET 8.
 
-I built this because most malware analysis tools are either full sandboxes that take forever, or simple hash checkers that miss everything custom. I wanted something in between — a fast static analyzer that can look at a PE file, pull apart its structure, and tell you what's suspicious about it before you ever run it.
+I built this because most malware analysis tools are either full sandboxes that take forever, or simple hash checkers that miss everything custom. I wanted something in between a fast static analyzer that can look at a PE file, pull apart its structure, and tell you what's suspicious about it before you ever run it.
 
 ## What it does
 
@@ -21,7 +21,7 @@ I built this because most malware analysis tools are either full sandboxes that 
 ## Usage
 
 ```
-dotnet run -- "C:\path\to\file.exe"
+exesage.exe "C:\path\to\file.exe"
 ```
 
 It'll show you the full analysis in the console, then ask if you want a PDF report.
