@@ -22,6 +22,7 @@ I built this because most malware analysis tools are either full sandboxes that 
 
 ```
 exesage.exe "C:\path\to\file.exe"
+exesage.exe "C:\path\to\file.dll"
 ```
 
 It'll show you the full analysis in the console, then ask if you want a PDF report.
