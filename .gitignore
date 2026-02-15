@@ -1,0 +1,28 @@
+## Build output
+bin/
+obj/
+
+## IDE / Editor
+.vs/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.swp
+*~
+
+## NuGet
+packages/
+*.nupkg
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## OS junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## User config
+appsettings.Development.json
