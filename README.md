@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ExeSage\banner.png" alt="ExeSage" width="600">
+</p>
+
 # ExeSage
 
 A static PE executable analyzer that scores Windows binaries for malicious indicators without running them. Built in C# / .NET 8.
