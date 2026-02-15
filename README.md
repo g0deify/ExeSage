@@ -40,7 +40,3 @@ dotnet build -c Release
 - YARA rule integration
 - Behavioral heuristics based on import combinations
 - Better .NET IL disassembly for deeper managed code analysis
-
-## License
-
-MIT
